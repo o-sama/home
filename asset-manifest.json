@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/home/static/js/main.c202b567.chunk.js",
-    "main.js.map": "/home/static/js/main.c202b567.chunk.js.map",
+    "main.js": "/home/static/js/main.ce13acce.chunk.js",
+    "main.js.map": "/home/static/js/main.ce13acce.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.671d20a7.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.671d20a7.js.map",
     "static/js/2.ca74695e.chunk.js": "/home/static/js/2.ca74695e.chunk.js",
     "static/js/2.ca74695e.chunk.js.map": "/home/static/js/2.ca74695e.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.ae003cb8af508fa4ab04e76a197e1b96.js": "/home/precache-manifest.ae003cb8af508fa4ab04e76a197e1b96.js",
+    "precache-manifest.a0d97460059ea7118ece129ea2e3ddf8.js": "/home/precache-manifest.a0d97460059ea7118ece129ea2e3ddf8.js",
     "service-worker.js": "/home/service-worker.js",
     "static/media/ISO_C++_Logo.svg": "/home/static/media/ISO_C++_Logo.8cc47c68.svg",
     "static/media/NCR.png": "/home/static/media/NCR.971ef1d4.png",
@@ -43,6 +43,6 @@
   "entrypoints": [
     "static/js/runtime-main.671d20a7.js",
     "static/js/2.ca74695e.chunk.js",
-    "static/js/main.c202b567.chunk.js"
+    "static/js/main.ce13acce.chunk.js"
   ]
 }
