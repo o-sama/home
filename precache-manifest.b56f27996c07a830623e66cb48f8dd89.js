@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46e0b22334247484d5aa6da45b20a914",
+    "revision": "860c3ea4228aa9a1ff884eba162cc4c7",
     "url": "/home/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/js/2.f15f50cf.chunk.js"
   },
   {
-    "revision": "5209d949dc91211fa4f9",
-    "url": "/home/static/js/main.4294408b.chunk.js"
+    "revision": "ce9015e17a559b01273d",
+    "url": "/home/static/js/main.09670be2.chunk.js"
   },
   {
     "revision": "61da613ad35cd2b9de16",
@@ -26,34 +26,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "947999cc5118cdb2b5cc7bd557a52779",
     "url": "/home/static/media/Thomson_Reuters_logo.947999cc.svg"
-  },
-  {
-    "revision": "9e4ba6f2f21f98569cb5cdb67b1038e8",
-    "url": "/home/static/media/_ionicons_svg_ios-arrow-down.9e4ba6f2.svg"
-  },
-  {
-    "revision": "b8b9fc4c878415072c7c907bb6a5b1dd",
-    "url": "/home/static/media/_ionicons_svg_ios-arrow-up.b8b9fc4c.svg"
-  },
-  {
-    "revision": "553197c435c5cb7f2dbdbfc98af4667e",
-    "url": "/home/static/media/_ionicons_svg_ios-mail.553197c4.svg"
-  },
-  {
-    "revision": "cc5b5c0454082fcd08e62e875e814e50",
-    "url": "/home/static/media/_ionicons_svg_ios-moon.cc5b5c04.svg"
-  },
-  {
-    "revision": "0d73f9fef485476bcf8cd51179697dc1",
-    "url": "/home/static/media/_ionicons_svg_ios-sunny.0d73f9fe.svg"
-  },
-  {
-    "revision": "8a1ba32d3c7b69b57d05b74cd65d8bd8",
-    "url": "/home/static/media/_ionicons_svg_logo-github.8a1ba32d.svg"
-  },
-  {
-    "revision": "3752b622e616a56bd26b448437e01a21",
-    "url": "/home/static/media/_ionicons_svg_logo-linkedin.3752b622.svg"
   },
   {
     "revision": "657502782d9edbdef0b429fa6cb8f07c",
@@ -82,6 +54,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52141b086d0c1fef713913442f755868",
     "url": "/home/static/media/hero.52141b08.jpg"
+  },
+  {
+    "revision": "9e4ba6f2f21f98569cb5cdb67b1038e8",
+    "url": "/home/static/media/ionicons_svg_ios-arrow-down.9e4ba6f2.svg"
+  },
+  {
+    "revision": "b8b9fc4c878415072c7c907bb6a5b1dd",
+    "url": "/home/static/media/ionicons_svg_ios-arrow-up.b8b9fc4c.svg"
+  },
+  {
+    "revision": "553197c435c5cb7f2dbdbfc98af4667e",
+    "url": "/home/static/media/ionicons_svg_ios-mail.553197c4.svg"
+  },
+  {
+    "revision": "cc5b5c0454082fcd08e62e875e814e50",
+    "url": "/home/static/media/ionicons_svg_ios-moon.cc5b5c04.svg"
+  },
+  {
+    "revision": "0d73f9fef485476bcf8cd51179697dc1",
+    "url": "/home/static/media/ionicons_svg_ios-sunny.0d73f9fe.svg"
+  },
+  {
+    "revision": "8a1ba32d3c7b69b57d05b74cd65d8bd8",
+    "url": "/home/static/media/ionicons_svg_logo-github.8a1ba32d.svg"
+  },
+  {
+    "revision": "3752b622e616a56bd26b448437e01a21",
+    "url": "/home/static/media/ionicons_svg_logo-linkedin.3752b622.svg"
   },
   {
     "revision": "f95c86b5c9fbc2cbcf33106e157b68a6",

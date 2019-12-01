@@ -1,24 +1,17 @@
 {
   "files": {
-    "main.js": "/home/static/js/main.4294408b.chunk.js",
-    "main.js.map": "/home/static/js/main.4294408b.chunk.js.map",
+    "main.js": "/home/static/js/main.09670be2.chunk.js",
+    "main.js.map": "/home/static/js/main.09670be2.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.671d20a7.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.671d20a7.js.map",
     "static/js/2.f15f50cf.chunk.js": "/home/static/js/2.f15f50cf.chunk.js",
     "static/js/2.f15f50cf.chunk.js.map": "/home/static/js/2.f15f50cf.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.797e42839fd190dfc0e62e9beff12124.js": "/home/precache-manifest.797e42839fd190dfc0e62e9beff12124.js",
+    "precache-manifest.b56f27996c07a830623e66cb48f8dd89.js": "/home/precache-manifest.b56f27996c07a830623e66cb48f8dd89.js",
     "service-worker.js": "/home/service-worker.js",
     "static/media/ISO_C++_Logo.svg": "/home/static/media/ISO_C++_Logo.8cc47c68.svg",
     "static/media/NCR.png": "/home/static/media/NCR.971ef1d4.png",
     "static/media/Thomson_Reuters_logo.svg": "/home/static/media/Thomson_Reuters_logo.947999cc.svg",
-    "static/media/_ionicons_svg_ios-arrow-down.svg": "/home/static/media/_ionicons_svg_ios-arrow-down.9e4ba6f2.svg",
-    "static/media/_ionicons_svg_ios-arrow-up.svg": "/home/static/media/_ionicons_svg_ios-arrow-up.b8b9fc4c.svg",
-    "static/media/_ionicons_svg_ios-mail.svg": "/home/static/media/_ionicons_svg_ios-mail.553197c4.svg",
-    "static/media/_ionicons_svg_ios-moon.svg": "/home/static/media/_ionicons_svg_ios-moon.cc5b5c04.svg",
-    "static/media/_ionicons_svg_ios-sunny.svg": "/home/static/media/_ionicons_svg_ios-sunny.0d73f9fe.svg",
-    "static/media/_ionicons_svg_logo-github.svg": "/home/static/media/_ionicons_svg_logo-github.8a1ba32d.svg",
-    "static/media/_ionicons_svg_logo-linkedin.svg": "/home/static/media/_ionicons_svg_logo-linkedin.3752b622.svg",
     "static/media/amazon_aws-icon.svg": "/home/static/media/amazon_aws-icon.65750278.svg",
     "static/media/c-seeklogo.com.svg": "/home/static/media/c-seeklogo.com.c64a068e.svg",
     "static/media/djangoproject-icon.svg": "/home/static/media/djangoproject-icon.f73d730e.svg",
@@ -26,6 +19,13 @@
     "static/media/git-scm-icon.svg": "/home/static/media/git-scm-icon.adcab6a5.svg",
     "static/media/golang-icon.svg": "/home/static/media/golang-icon.8fc5db97.svg",
     "static/media/hero.jpg": "/home/static/media/hero.52141b08.jpg",
+    "static/media/ionicons_svg_ios-arrow-down.svg": "/home/static/media/ionicons_svg_ios-arrow-down.9e4ba6f2.svg",
+    "static/media/ionicons_svg_ios-arrow-up.svg": "/home/static/media/ionicons_svg_ios-arrow-up.b8b9fc4c.svg",
+    "static/media/ionicons_svg_ios-mail.svg": "/home/static/media/ionicons_svg_ios-mail.553197c4.svg",
+    "static/media/ionicons_svg_ios-moon.svg": "/home/static/media/ionicons_svg_ios-moon.cc5b5c04.svg",
+    "static/media/ionicons_svg_ios-sunny.svg": "/home/static/media/ionicons_svg_ios-sunny.0d73f9fe.svg",
+    "static/media/ionicons_svg_logo-github.svg": "/home/static/media/ionicons_svg_logo-github.8a1ba32d.svg",
+    "static/media/ionicons_svg_logo-linkedin.svg": "/home/static/media/ionicons_svg_logo-linkedin.3752b622.svg",
     "static/media/istioio-icon.svg": "/home/static/media/istioio-icon.f95c86b5.svg",
     "static/media/java-icon.svg": "/home/static/media/java-icon.249fe040.svg",
     "static/media/kubernetes-icon.svg": "/home/static/media/kubernetes-icon.f7a858b2.svg",
@@ -43,6 +43,6 @@
   "entrypoints": [
     "static/js/runtime-main.671d20a7.js",
     "static/js/2.f15f50cf.chunk.js",
-    "static/js/main.4294408b.chunk.js"
+    "static/js/main.09670be2.chunk.js"
   ]
 }
