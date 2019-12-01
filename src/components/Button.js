@@ -1,9 +1,11 @@
 import styled, { css } from "styled-components";
+import { mobileModel } from "react-device-detect";
 
 const Button = styled.button`
   ${props => {
+    const ret = [];
     if (props.themeButton) {
-      return css`
+      ret.push(css`
         position: fixed;
         top: 54%;
         right: 2%;
@@ -15,8 +17,21 @@ const Button = styled.button`
         background-image: url(${props => props.icon});
         background-color: transparent;
         border: none;
-      `;
+      `);
     }
+    if (props.mobile) {
+      ret.push(
+        css`
+          height: 50px;
+          width: 50px;
+          outline: none;
+          background-image: url(${props => props.icon});
+          background-color: transparent;
+          border: none;
+        `
+      );
+    }
+    return ret;
   }}
 `;
 

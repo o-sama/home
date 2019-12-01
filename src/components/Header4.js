@@ -1,8 +1,8 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 const Header4 = styled.h4`
   display: block;
-  font-size: 20px;
+  font-size: 15px;
   color: ${props => props.theme.textColor};
   align-items: center;
   justify-content: center;

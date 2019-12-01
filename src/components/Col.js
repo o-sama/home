@@ -8,6 +8,14 @@ const Col = styled.div`
   justify-content: center;
   text-align: center;
   padding: 0 15px;
+
+  ${props => {
+    if (props.mobile) {
+      return css`
+        padding: 0 8px;
+      `;
+    }
+  }}
 `;
 
 export default Col;

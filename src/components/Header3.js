@@ -11,6 +11,14 @@ const Header3 = styled.h3`
   padding: 30px 0 10px 0;
   margin: 0;
   text-transform: uppercase;
+
+  ${props => {
+    if (props.mobile) {
+      return css`
+        font-size: 20px;
+      `;
+    }
+  }}
 `;
 
 export default Header3;

@@ -22,6 +22,14 @@ const SectionHeader = styled.h2`
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+  ${props => {
+    if (props.mobile) {
+      return css`
+        font-size: 30px;
+      `;
+    }
+  }}
 `;
 
 export default SectionHeader;

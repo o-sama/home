@@ -9,6 +9,15 @@ const Row = styled.div`
   text-align: center;
   box-sizing: border-box;
   padding: 25px 0;
+
+  ${props => {
+    return (
+      props.mobileNav &&
+      css`
+        padding: 0;
+      `
+    );
+  }}
 `;
 
 export default Row;

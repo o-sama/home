@@ -23,13 +23,13 @@ import tmmc from "./icons/toyota.png";
 import ncr from "./icons/NCR.png";
 import mm from "./icons/modmarket.png";
 import uw from "./icons/university-of-waterloo-logo-svg-vector.svg";
-import downArr from "./icons/_ionicons_svg_ios-arrow-down.svg";
-import upArr from "./icons/_ionicons_svg_ios-arrow-up.svg";
-import sun from "./icons/_ionicons_svg_ios-sunny.svg";
-import moon from "./icons/_ionicons_svg_ios-moon.svg";
-import github from "./icons/_ionicons_svg_logo-github.svg";
-import linkedin from "./icons/_ionicons_svg_logo-linkedin.svg";
-import mail from "./icons/_ionicons_svg_ios-mail.svg";
+import downArr from "./icons/ionicons_svg_ios-arrow-down.svg";
+import upArr from "./icons/ionicons_svg_ios-arrow-up.svg";
+import sun from "./icons/ionicons_svg_ios-sunny.svg";
+import moon from "./icons/ionicons_svg_ios-moon.svg";
+import github from "./icons/ionicons_svg_logo-github.svg";
+import linkedin from "./icons/ionicons_svg_logo-linkedin.svg";
+import mail from "./icons/ionicons_svg_ios-mail.svg";
 
 export {
   go,

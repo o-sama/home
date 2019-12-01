@@ -5,6 +5,14 @@ const HeroText = styled.h1`
   color: white;
   margin: 0;
   text-transform: uppercase;
+
+  ${props => {
+    if (props.mobile) {
+      return css`
+        font-size: 50px;
+      `;
+    }
+  }}
 `;
 
 export default HeroText;
