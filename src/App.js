@@ -97,17 +97,20 @@ class App extends React.Component {
                       position: "fixed",
                       right: "30%",
                       top: "0",
-                      padding: "0"
+                      padding: "0",
+                      height: "35px",
+                      width: "35px"
                     }}
                   />
                   <Icon
-                    mobile
                     src={icons.upArr}
                     style={{
                       position: "fixed",
                       right: "30%",
                       top: "9px",
-                      padding: "0"
+                      padding: "0",
+                      height: "35px",
+                      width: "35px"
                     }}
                   />
                 </a>

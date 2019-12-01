@@ -6,9 +6,9 @@ const MobileNav = styled.div`
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 20px 0;
+  padding: 11px 0;
   width: 100vw;
-  background-color: ${props => props.theme.backgroundColor};
+  background-color: rgba(0, 0, 0, 0.75);
 `;
 
 export default MobileNav;
