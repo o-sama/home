@@ -5,7 +5,7 @@ const Section = styled.section`
   background: ${props => props.theme.backgroundColor};
   color: ${props => props.theme.textColor};
   box-sizing: border-box;
-  padding-bottom: 25px;
+  padding: 15px 0 10px 0;
 
   ${props => {
     const ret = [];

@@ -67,5 +67,19 @@ export default {
       summary: "",
       points: []
     }
+  ],
+  projectList: [
+    {
+      id: "Vigilant",
+      wip: "True",
+      technologies: [
+        "React.JS",
+        "Python",
+        "Tensorflow",
+        "AWS Kinesis",
+        "AWS S3",
+        "AWS RDS"
+      ]
+    }
   ]
 };

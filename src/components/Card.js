@@ -17,7 +17,7 @@ const Card = styled.div`
         width: 90%;
       `;
     }
-  }}
+  }};
 `;
 
 export default Card;

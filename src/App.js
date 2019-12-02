@@ -75,6 +75,7 @@ class App extends React.Component {
 
   render = () => {
     if (isMobileOnly) {
+      // Mobile browser
       return (
         <ThemeProvider theme={this.state.theme}>
           <GlobalStyle />
@@ -121,8 +122,8 @@ class App extends React.Component {
             <HeroText mobile>Osama Faqhruldin</HeroText>
           </Section>
           <Section>
-            <SectionHeader mobile>Skills</SectionHeader>
             <Card mobile>
+              <SectionHeader mobile>Skills</SectionHeader>
               <Header3 mobile>
                 What I <EmphasisText>know</EmphasisText>
               </Header3>
@@ -138,8 +139,8 @@ class App extends React.Component {
             </Card>
           </Section>
           <Section>
-            <SectionHeader mobile>Where I've been</SectionHeader>
             <Card mobile>
+              <SectionHeader mobile>Where I've been</SectionHeader>
               <Row>
                 <Col>
                   <Icon
@@ -202,8 +203,8 @@ class App extends React.Component {
             </Card>
           </Section>
           <Section>
-            <SectionHeader mobile>Education</SectionHeader>
             <Card mobile>
+              <SectionHeader mobile>Education</SectionHeader>
               <Row>
                 <Col>
                   <Icon
@@ -214,7 +215,9 @@ class App extends React.Component {
                 </Col>
               </Row>
               <Header4 mobile>September 2014 - May 2020</Header4>
-              <Header3 mobile>Courses I've Enjoyed</Header3>
+              <Header3 mobile>
+                Courses I've <EmphasisText>Enjoyed</EmphasisText>
+              </Header3>
               <Row>
                 <Col>
                   <UnorderedList
@@ -238,8 +241,8 @@ class App extends React.Component {
             </Card>
           </Section>
           <Section>
-            <SectionHeader mobile>Find me here</SectionHeader>
             <Card mobile>
+              <SectionHeader mobile>Find me here</SectionHeader>
               <Row>
                 <Col mobile>
                   <a
@@ -271,6 +274,7 @@ class App extends React.Component {
       );
     }
 
+    // Non-mobile browser
     return (
       <ThemeProvider theme={this.state.theme}>
         <GlobalStyle />
@@ -288,8 +292,8 @@ class App extends React.Component {
           <HeroText>Osama Faqhruldin</HeroText>
         </Section>
         <Section>
-          <SectionHeader>Skills</SectionHeader>
           <Card>
+            <SectionHeader>Skills</SectionHeader>
             <Header3>
               What I <EmphasisText>know</EmphasisText>
             </Header3>
@@ -305,8 +309,8 @@ class App extends React.Component {
           </Card>
         </Section>
         <Section>
-          <SectionHeader>Where I've been</SectionHeader>
           <Card>
+            <SectionHeader>Where I've been</SectionHeader>
             <Row>
               <Col>
                 <Icon
@@ -363,15 +367,17 @@ class App extends React.Component {
           </Card>
         </Section>
         <Section>
-          <SectionHeader>Education</SectionHeader>
           <Card>
+            <SectionHeader>Education</SectionHeader>
             <Row>
               <Col>
                 <Icon school src={icons.uw} />
               </Col>
             </Row>
             <Header4>September 2014 - May 2020</Header4>
-            <Header3>Courses I've Enjoyed</Header3>
+            <Header3>
+              Courses I've <EmphasisText>Enjoyed</EmphasisText>
+            </Header3>
             <Row>
               <Col>
                 <UnorderedList
@@ -395,8 +401,8 @@ class App extends React.Component {
           </Card>
         </Section>
         <Section>
-          <SectionHeader>Find me here</SectionHeader>
           <Card>
+            <SectionHeader>Find me here</SectionHeader>
             <Row>
               <Col>
                 <a
