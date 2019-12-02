@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import { mobileModel } from "react-device-detect";
 
 const Button = styled.button`
   ${props => {
@@ -17,6 +16,7 @@ const Button = styled.button`
         background-image: url(${props => props.icon});
         background-color: transparent;
         border: none;
+        cursor: pointer;
       `);
     }
     if (props.mobile) {
