@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const SectionHeader = styled.h2`
   display: block;
-  font-size: 50px;
+  font-size: 250%;
   color: ${props => props.theme.textColor};
   align-items: center;
   justify-content: center;
@@ -26,7 +26,7 @@ const SectionHeader = styled.h2`
   ${props => {
     if (props.mobile) {
       return css`
-        font-size: 30px;
+        font-size: 150%;
       `;
     }
   }}

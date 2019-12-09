@@ -2,7 +2,7 @@ const LightTheme = {
   id: "light",
   backgroundColor: "#eee",
   primaryColor: "#49cfac",
-  offSection: "#eee",
+  offSection: "#fff",
   textColor: "black",
   elevationColor: "#fff"
 };

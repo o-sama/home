@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 const Header3 = styled.h3`
   display: block;
-  font-size: 30px;
+  font-size: 150%;
   color: ${props => props.theme.textColor};
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ const Header3 = styled.h3`
   ${props => {
     if (props.mobile) {
       return css`
-        font-size: 20px;
+        font-size: 130%;
       `;
     }
   }}

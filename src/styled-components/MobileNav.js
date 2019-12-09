@@ -8,7 +8,8 @@ const MobileNav = styled.div`
   text-align: center;
   padding: 11px 0;
   width: 100vw;
-  background-color: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
 `;
 
 export default MobileNav;

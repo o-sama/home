@@ -1,9 +1,9 @@
 import styled, { css } from "styled-components";
 
 const Icon = styled.img`
-  height: 100px;
-  width: 100px;
-  padding: 30px 35px;
+  height: 64px;
+  width: 64px;
+  padding: 20px 30px;
 
   ${props => {
     if (props.mobile) {
@@ -38,21 +38,21 @@ const Icon = styled.img`
       if (props.work === "r1") {
         return css`
           cursor: pointer;
-          height: 150px;
-          width: 250px;
+          height: 75px;
+          width: 125px;
         `;
       }
       if (props.work === "r2") {
         return css`
           cursor: pointer;
-          height: 100px;
-          width: 250px;
+          height: 50px;
+          width: 125px;
         `;
       }
       if (props.school) {
         return css`
-          height: 250px;
-          width: 250px;
+          height: 125px;
+          width: 125px;
         `;
       }
       if (props.navTop) {

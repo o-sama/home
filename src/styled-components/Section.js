@@ -2,10 +2,8 @@ import styled, { css } from "styled-components";
 import hero from "../img/hero.jpg";
 
 const Section = styled.section`
-  background: ${props => props.theme.backgroundColor};
+  /* background: ${props => props.theme.backgroundColor}; */
   color: ${props => props.theme.textColor};
-  box-sizing: border-box;
-  padding: 15px 0 10px 0;
 
   ${props => {
     const ret = [];
@@ -24,6 +22,17 @@ const Section = styled.section`
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
+        /* z-index: 9999; */
+        position: sticky;
+      `);
+    } else {
+      ret.push(css`
+        padding: 2% 0;
+        /* background: ${props => props.theme.offSection}; */
+        border-radius: 100px;
+        width: 95%;
+        margin: 2% auto;
+        box-sizing: border-box;
       `);
     }
     return ret;

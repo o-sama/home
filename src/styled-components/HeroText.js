@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 const HeroText = styled.h1`
-  font-size: 100px;
+  font-size: 500%;
   color: white;
   margin: 0;
   text-transform: uppercase;
@@ -9,7 +9,7 @@ const HeroText = styled.h1`
   ${props => {
     if (props.mobile) {
       return css`
-        font-size: 50px;
+        font-size: 350%;
       `;
     }
   }}
