@@ -13,7 +13,16 @@ const Contact = () => {
   return (
     <Section>
       <Card>
-        <SectionHeader>Find me here</SectionHeader>
+        <div
+          style={{
+            height: "10px",
+            backgroundColor: "#ca2171",
+            color: "transparent"
+          }}
+        >
+          .
+        </div>
+        <SectionHeader sectionColor="#ca2171">Find me here</SectionHeader>
         <Row>
           <Col>
             <a

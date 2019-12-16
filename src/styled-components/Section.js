@@ -22,15 +22,12 @@ const Section = styled.section`
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
-        /* z-index: 9999; */
         position: sticky;
       `);
     } else {
       ret.push(css`
         padding: 2% 0;
-        /* background: ${props => props.theme.offSection}; */
-        border-radius: 100px;
-        width: 95%;
+        width: 80%;
         margin: 2% auto;
         box-sizing: border-box;
       `);

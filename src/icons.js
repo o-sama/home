@@ -16,6 +16,9 @@ import redux from "./icons/redux.svg";
 import tensorflow from "./icons/tensorflow-icon.svg";
 import terraform from "./icons/terraformio-icon.svg";
 import ts from "./icons/typescriptlang-icon.svg";
+import swift from "./icons/swift-15.svg";
+import html5 from "./icons/html5.svg";
+import css3 from "./icons/css-5.svg";
 import tr from "./icons/Thomson_Reuters_logo.svg";
 import flipp from "./icons/Flipp.png";
 import hydro from "./icons/london-hydro-logo-horizontal1.png";
@@ -50,6 +53,9 @@ export {
   tensorflow,
   terraform,
   ts,
+  swift,
+  html5,
+  css3,
   tr,
   flipp,
   hydro,

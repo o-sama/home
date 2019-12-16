@@ -1,16 +1,15 @@
 import styled, { css } from "styled-components";
 
 const Card = styled.div`
-  width: 90%;
   margin: 0 auto;
   color: ${props => props.theme.textColor};
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: ${props => props.theme.elevationColor};
-  border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 100px;
+  border-right: 1px solid ${props => props.theme.primaryColor};
+  border-left: 1px solid ${props => props.theme.primaryColor};
+  border-bottom: 1px solid ${props => props.theme.primaryColor};
 
   ${props => {
     if (props.mobile) {

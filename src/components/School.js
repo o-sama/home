@@ -18,7 +18,16 @@ const School = () => {
   return (
     <Section>
       <Card>
-        <SectionHeader>Education</SectionHeader>
+        <div
+          style={{
+            height: "10px",
+            backgroundColor: "#562de2",
+            color: "transparent"
+          }}
+        >
+          .
+        </div>
+        <SectionHeader sectionColor="#562de2">Education</SectionHeader>
         <Row>
           <Col>
             <Icon
@@ -30,7 +39,8 @@ const School = () => {
         </Row>
         <Header4>September 2014 - May 2020</Header4>
         <Header3>
-          Courses I've <EmphasisText>Enjoyed</EmphasisText>
+          Courses I've{" "}
+          <EmphasisText sectionColor="#562de2">Enjoyed</EmphasisText>
         </Header3>
         <Row>
           <Col>

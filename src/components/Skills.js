@@ -28,18 +28,29 @@ class Skills extends React.Component {
   render = () => {
     return (
       <Section>
+        <div
+          style={{
+            height: "10px",
+            backgroundColor: "#00bc7f",
+            color: "transparent"
+          }}
+        >
+          .
+        </div>
         <Card>
-          <SectionHeader>Skills</SectionHeader>
+          <SectionHeader sectionColor="#00bc7f">Skills</SectionHeader>
           <Header3>
-            What I <EmphasisText>know</EmphasisText>
+            What I <EmphasisText sectionColor="#00bc7f">know</EmphasisText>
           </Header3>
           <Row>{this.renderSkillInfo("highLevel", true)}</Row>
           <Header3>
-            What I'm <EmphasisText>comfortable</EmphasisText> with
+            What I'm{" "}
+            <EmphasisText sectionColor="#00bc7f">comfortable</EmphasisText> with
           </Header3>
           <Row>{this.renderSkillInfo("midLevel", true)}</Row>
           <Header3>
-            What I've <EmphasisText>dabbled</EmphasisText> with
+            What I've{" "}
+            <EmphasisText sectionColor="#00bc7f">dabbled</EmphasisText> with
           </Header3>
           <Row>{this.renderSkillInfo("lowLevel", true)}</Row>
         </Card>

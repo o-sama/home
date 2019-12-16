@@ -15,7 +15,7 @@ const SectionHeader = styled.h2`
   &::after {
     display: block;
     height: 2px;
-    background-color: ${props => props.theme.primaryColor};
+    background-color: ${props => props.sectionColor};
     content: " ";
     width: 200px;
     margin: 0 auto;
