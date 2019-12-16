@@ -16,7 +16,7 @@ import CardMain from "../styled-components/CardMain";
 import * as icons from "../icons";
 import workInfo from "../workInfo";
 
-export default class Work extends React.Component {
+class Work extends React.Component {
   state = {
     expToShow: workInfo.workList.filter(e => e.id === 1)
   };
@@ -30,13 +30,13 @@ export default class Work extends React.Component {
 
   renderExpPoints = inArray => {
     return inArray.map(e => {
-      return <ListItem>{e}</ListItem>;
+      return <ListItem key={e.id}>{e}</ListItem>;
     });
   };
 
   render = () => {
     return (
-      <Section>
+      <Section ref={this.props.innerRef}>
         <Card>
           <div
             style={{
@@ -108,3 +108,7 @@ export default class Work extends React.Component {
     );
   };
 }
+
+export default React.forwardRef((props, ref) => (
+  <Work innerRef={ref} {...props} />
+));

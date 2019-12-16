@@ -21,8 +21,11 @@ const Section = styled.section`
         justify-content: center;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
-        position: sticky;
+      `);
+    } else if (props.nav) {
+      ret.push(css`
+        padding: 0;
+        margin: 0;
       `);
     } else {
       ret.push(css`

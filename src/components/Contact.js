@@ -9,9 +9,9 @@ import SectionHeader from "../styled-components/SectionHeader";
 
 import * as icons from "../icons";
 
-const Contact = () => {
+const Contact = React.forwardRef((props, ref) => {
   return (
-    <Section>
+    <Section ref={ref}>
       <Card>
         <div
           style={{
@@ -51,6 +51,6 @@ const Contact = () => {
       </Card>
     </Section>
   );
-};
+});
 
 export default Contact;

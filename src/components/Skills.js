@@ -9,7 +9,6 @@ import SectionHeader from "../styled-components/SectionHeader";
 import Header3 from "../styled-components/Header3";
 import EmphasisText from "../styled-components/EmphasisText";
 
-import * as icons from "../icons";
 import skillInfo from "../skillInfo";
 
 class Skills extends React.Component {
@@ -27,7 +26,7 @@ class Skills extends React.Component {
 
   render = () => {
     return (
-      <Section>
+      <Section ref={this.props.innerRef}>
         <div
           style={{
             height: "10px",
@@ -59,4 +58,6 @@ class Skills extends React.Component {
   };
 }
 
-export default Skills;
+export default React.forwardRef((props, ref) => (
+  <Skills innerRef={ref} {...props} />
+));

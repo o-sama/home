@@ -14,9 +14,9 @@ import EmphasisText from "../styled-components/EmphasisText";
 
 import * as icons from "../icons";
 
-const School = () => {
+const School = React.forwardRef((props, ref) => {
   return (
-    <Section>
+    <Section ref={ref}>
       <Card>
         <div
           style={{
@@ -65,6 +65,6 @@ const School = () => {
       </Card>
     </Section>
   );
-};
+});
 
 export default School;
