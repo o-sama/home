@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.js": "/home/static/js/main.ce13acce.chunk.js",
-    "main.js.map": "/home/static/js/main.ce13acce.chunk.js.map",
+    "main.js": "/home/static/js/main.101228ca.chunk.js",
+    "main.js.map": "/home/static/js/main.101228ca.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.671d20a7.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.671d20a7.js.map",
-    "static/js/2.ca74695e.chunk.js": "/home/static/js/2.ca74695e.chunk.js",
-    "static/js/2.ca74695e.chunk.js.map": "/home/static/js/2.ca74695e.chunk.js.map",
+    "static/js/2.3c112bbe.chunk.js": "/home/static/js/2.3c112bbe.chunk.js",
+    "static/js/2.3c112bbe.chunk.js.map": "/home/static/js/2.3c112bbe.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.a0d97460059ea7118ece129ea2e3ddf8.js": "/home/precache-manifest.a0d97460059ea7118ece129ea2e3ddf8.js",
+    "precache-manifest.c994e8c3876178a973c07db6fdd00c31.js": "/home/precache-manifest.c994e8c3876178a973c07db6fdd00c31.js",
     "service-worker.js": "/home/service-worker.js",
     "static/media/ISO_C++_Logo.svg": "/home/static/media/ISO_C++_Logo.8cc47c68.svg",
     "static/media/NCR.png": "/home/static/media/NCR.971ef1d4.png",
     "static/media/Thomson_Reuters_logo.svg": "/home/static/media/Thomson_Reuters_logo.947999cc.svg",
     "static/media/amazon_aws-icon.svg": "/home/static/media/amazon_aws-icon.65750278.svg",
     "static/media/c-seeklogo.com.svg": "/home/static/media/c-seeklogo.com.c64a068e.svg",
+    "static/media/css-5.svg": "/home/static/media/css-5.6971ddc7.svg",
     "static/media/djangoproject-icon.svg": "/home/static/media/djangoproject-icon.f73d730e.svg",
     "static/media/docker-icon.svg": "/home/static/media/docker-icon.a3cc1af0.svg",
     "static/media/git-scm-icon.svg": "/home/static/media/git-scm-icon.adcab6a5.svg",
     "static/media/golang-icon.svg": "/home/static/media/golang-icon.8fc5db97.svg",
     "static/media/hero.jpg": "/home/static/media/hero.52141b08.jpg",
+    "static/media/html5.svg": "/home/static/media/html5.f0361c5e.svg",
     "static/media/ionicons_svg_ios-arrow-down.svg": "/home/static/media/ionicons_svg_ios-arrow-down.9e4ba6f2.svg",
     "static/media/ionicons_svg_ios-arrow-up.svg": "/home/static/media/ionicons_svg_ios-arrow-up.b8b9fc4c.svg",
     "static/media/ionicons_svg_ios-mail.svg": "/home/static/media/ionicons_svg_ios-mail.553197c4.svg",
@@ -35,6 +37,7 @@
     "static/media/python-icon.svg": "/home/static/media/python-icon.ffc01dcc.svg",
     "static/media/reactjs-icon.svg": "/home/static/media/reactjs-icon.70384772.svg",
     "static/media/redux.svg": "/home/static/media/redux.690b9c30.svg",
+    "static/media/swift-15.svg": "/home/static/media/swift-15.74ba2b9c.svg",
     "static/media/tensorflow-icon.svg": "/home/static/media/tensorflow-icon.e7ca8435.svg",
     "static/media/terraformio-icon.svg": "/home/static/media/terraformio-icon.594e5be4.svg",
     "static/media/typescriptlang-icon.svg": "/home/static/media/typescriptlang-icon.3aeee229.svg",
@@ -42,7 +45,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.671d20a7.js",
-    "static/js/2.ca74695e.chunk.js",
-    "static/js/main.ce13acce.chunk.js"
+    "static/js/2.3c112bbe.chunk.js",
+    "static/js/main.101228ca.chunk.js"
   ]
 }

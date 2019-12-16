@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aadb9f7437a3a5b2bcccf10c2f29d4a9",
+    "revision": "084996806051dd9a026f09356a1aa17c",
     "url": "/home/index.html"
   },
   {
-    "revision": "c4df31b00285dadb703b",
-    "url": "/home/static/js/2.ca74695e.chunk.js"
+    "revision": "452a62c891a649cb26ff",
+    "url": "/home/static/js/2.3c112bbe.chunk.js"
   },
   {
-    "revision": "67b57172282fcabe98e3",
-    "url": "/home/static/js/main.ce13acce.chunk.js"
+    "revision": "c73844a4908b720dc3f6",
+    "url": "/home/static/js/main.101228ca.chunk.js"
   },
   {
     "revision": "61da613ad35cd2b9de16",
@@ -36,6 +36,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/home/static/media/c-seeklogo.com.c64a068e.svg"
   },
   {
+    "revision": "6971ddc761cc35ba918be0a69dfbcf50",
+    "url": "/home/static/media/css-5.6971ddc7.svg"
+  },
+  {
     "revision": "f73d730e15c620df4c55afba97a48b79",
     "url": "/home/static/media/djangoproject-icon.f73d730e.svg"
   },
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52141b086d0c1fef713913442f755868",
     "url": "/home/static/media/hero.52141b08.jpg"
+  },
+  {
+    "revision": "f0361c5e9bebc1c5647523db385641cf",
+    "url": "/home/static/media/html5.f0361c5e.svg"
   },
   {
     "revision": "9e4ba6f2f21f98569cb5cdb67b1038e8",
@@ -118,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "690b9c30d1779a05ba39effd3b36742b",
     "url": "/home/static/media/redux.690b9c30.svg"
+  },
+  {
+    "revision": "74ba2b9c367f7d68236f83aada87fb2e",
+    "url": "/home/static/media/swift-15.74ba2b9c.svg"
   },
   {
     "revision": "e7ca84359ff5c41ac212b886b96d2e67",
